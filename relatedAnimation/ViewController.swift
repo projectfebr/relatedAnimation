@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         view.addSubview(rect)
         
         let slider = UISlider()
-        slider.frame = CGRect(x: 10, y: 350, width: (view.frame.width - 10), height: 50)
+        slider.frame = CGRect(x: 10, y: 350, width: (view.frame.width - 20), height: 50)
         slider.value = 0
         view.addSubview(slider)
         
